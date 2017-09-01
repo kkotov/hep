@@ -1,0 +1,106 @@
+---
+title       : "My projects"
+subtitle    : 
+author      : Khristian Kotov
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+github:
+  user: kkotov 
+  repo: talks
+url:
+  lib:    ../../../../monohiggs/plots/libraries
+  assets: ../../../../monohiggs/plots/assets
+widgets     : [mathjax]     # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+
+--- .class #id
+
+## Outline
+
+A brief review of bolts and nuts of Hight Energy Physics
+
+My projects in
+* EMTF
+* L1T O2O
+* Physics analyses/data processing
+* DQM
+* Machine Learning
+
+Other Hobbies/Interests:
+* text mining (tf-idf)
+* forecasting (wavelets/furier)
+
+--- .class #id
+
+## The Large Hadron Collider
+
+<img class=center src="lhc.png" height=520>
+
+--- .class #id
+
+## Compact Muon Solenoid
+
+<img class=center src="cms.png" height=520>
+
+--- &twocol
+
+## Muon Endcap System
+
+
+*** =left
+
+<img class=center src="endcap1.png" height=220 width=300>
+
+<img class=center src="endcap2.png" height=220 width=300>
+
+*** =right
+
+
+New&nbsp;<span style="font-family:helvetica;color:green">L1TMuonEndCapForests[<span style="font-weight:bold">_Stage2v0_hlt</span>]</span> will be used with new EMTF emulator (in progress)
+
+* History for these tags was reconstructed starting ~June 2016 (e.g. [last report](http://kkotov.github.io/l1o2o/talks/2017.03.20) for CaloParams)
+
+* Validation (data-emulator comparison) was ran on a Heavy Ion run ([muons](https://its.cern.ch/jira/browse/CMSLITDPG-3), [calo](https://its.cern.ch/jira/browse/CMSLITDPG-4))
+
+* Future Monte Carlo tags will be generated from these O2O tags and used in MC campaigns
+
+*** =fullwidth
+
+---  &twocol
+
+## Cathode Strip Chambers
+
+*** =left
+
+* bla-bla-bla
+
+*** =right
+
+<img class=center src="csc_trapezoid_v4.svg" height=220 width=300>
+
+<img class=center src="csc_exploded_view.svg" height=220 width=300>
+
+---  &twocol
+
+## Time Constraints
+
+*** =left
+
+<img class=center src="signal.png" height=220 width=300>
+
+* bla-bla
+
+*** =right
+
+* bla-bla
+
+<img class=center src="bx.png" height=220 width=300>
+
+--- .class #id
+
+## Electronics
+
+<img class=center src="crate.png" height=520>
+
