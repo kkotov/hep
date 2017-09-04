@@ -19,7 +19,15 @@ mode        : selfcontained # {standalone, draft}
 
 ## Outline
 
-A brief review of bolts and nuts of Hight Energy Physics
+Zooming in the big picture: from fundamental questions to the bolts and nuts in my projects
+
+<br>
+
+Custom-built hardware and software for data processing
+
+<br>
+
+ meets data analyses
 
 My projects in
 * EMTF
@@ -28,21 +36,86 @@ My projects in
 * DQM
 * Machine Learning
 
-Other Hobbies/Interests:
+Hobbies/Interests:
 * text mining (tf-idf)
 * forecasting (wavelets/furier)
+* suffix trees
 
 --- .class #id
 
-## The Large Hadron Collider
+## Zooming in the big picture
 
-<img class=center src="lhc.png" height=520>
+<br>
+
+* Just enough of particle physics for bioinformatitians
+
+* The Large Hadron Collider and particle detectors
+
+* Compact Muon Solenoid detector
+
+* Muon Endcap subsystem
+
+* Electronics
+
+* Track-Finding
+
+---  &twocol
+
+## Just enough of particle physics for bioinformatitians
+
+Standard Model is a universal theory describing microscopic world with incredible precision
+
+*** =left
+
+<img class=center src="sm.svg" height=300>
+
+*** =right
+
+Quarks form protons and neutrons like triplets of the four bases form aminoacids 
+(e.g. <span style="font-family:helvetica;font-style:italic">Glutamine = CAG</span>; $p = uud$, $n = udd$)
+
+But particles easily turn into each other (e.g. $n \rightarrow p^+ + e^- + \bar{\nu}_e$ when $d \rightarrow u + W^-$)
+
+The focus of HEP is in accurately measuring such dynamics
+and looking for any diviations from the model (i.e. new physics)
+
+*** =fullwidth
+
+There theory is complete, but there are still many open questions; some of those:
+
+* [Dark matter observed in skies](https://indico.cern.ch/event/312657/contributions/1685474/attachments/598780/823985/kk_2014.09.26.pdf): what it is and where whould it fit in the table above?
+
+* What happens beyond our energy reach where the model no longer describes nature?
+
+--- &twocol
+
+## The Large Hadron Collider ("wet lab" of HEP)
+
+*** =left
+
+<img class=center src="ring.png" height=320>
+
+<img class=center src="tunel.jpg" height=220>
+
+*** =right
+
+Collision energy $\sim 10^4$ proton masses
+
+Collision frequency $\sim 40 MHz$ (every 25 ns)
+
+Data rate $\sim 20 PB$ per year
+
+<img class=center src="detectors.png" height=350>
+
+*** =fullwidth
 
 --- .class #id
 
-## Compact Muon Solenoid
+## Compact Muon Solenoid (a high-speed 3D camera)
 
-<img class=center src="cms.png" height=520>
+<br>
+
+<img class=center src="cms.png" width=1000>
 
 --- &twocol
 
@@ -51,52 +124,21 @@ Other Hobbies/Interests:
 
 *** =left
 
-<img class=center src="endcap1.png" height=220 width=300>
+<img class=center src="endcap2.png" width=400>
 
-<img class=center src="endcap2.png" height=220 width=300>
+6,000 m$^2$ sensetive area
 
-*** =right
+2,000,000 anode wires (200,000 channels)
 
+250,000 strip (analog) channels
 
-New&nbsp;<span style="font-family:helvetica;color:green">L1TMuonEndCapForests[<span style="font-weight:bold">_Stage2v0_hlt</span>]</span> will be used with new EMTF emulator (in progress)
-
-* History for these tags was reconstructed starting ~June 2016 (e.g. [last report](http://kkotov.github.io/l1o2o/talks/2017.03.20) for CaloParams)
-
-* Validation (data-emulator comparison) was ran on a Heavy Ion run ([muons](https://its.cern.ch/jira/browse/CMSLITDPG-3), [calo](https://its.cern.ch/jira/browse/CMSLITDPG-4))
-
-* Future Monte Carlo tags will be generated from these O2O tags and used in MC campaigns
-
-*** =fullwidth
-
----  &twocol
-
-## Cathode Strip Chambers
-
-*** =left
-
-* bla-bla-bla
+540 overapping chambers
 
 *** =right
 
-<img class=center src="csc_trapezoid_v4.svg" height=220 width=300>
+<img class=center src="csc_trapezoid_v4.svg" height=400>
 
-<img class=center src="csc_exploded_view.svg" height=220 width=300>
-
----  &twocol
-
-## Time Constraints
-
-*** =left
-
-<img class=center src="signal.png" height=220 width=300>
-
-* bla-bla
-
-*** =right
-
-* bla-bla
-
-<img class=center src="bx.png" height=220 width=300>
+<img class=center src="piercing.png" height=100>
 
 --- .class #id
 
