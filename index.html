@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My projects</title>
+  <meta charset="utf-8">
+  <meta name="description" content="My projects">
+  <meta name="author" content="Khristian Kotov">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="../../../../monohiggs/plots/libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="../../../../monohiggs/plots/libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="../../../../monohiggs/plots/libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="../../../../monohiggs/plots/libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="../../../../monohiggs/plots/libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="../../../../monohiggs/plots/libraries/frameworks/io2012/js/slides" 
+    src="../../../../monohiggs/plots/libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>My projects</h1>
+    <h2></h2>
+    <p>Khristian Kotov<br/></p>
+  </hgroup>
+    <a href="https://github.com/kkotov/talks/zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Outline</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br>
+<br></p>
+
+<p>Zooming in the big picture: from fundamental questions to the bolts and nuts of my projects</p>
+
+<p><br>
+<br></p>
+
+<p>My projects in the domain</p>
+
+<p><br>
+<br></p>
+
+<p>Other interests</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    <p><br>
+<br>
+<br></p>
+
+<h1>Zooming in the big picture:</h1>
+
+<p><br></p>
+
+<ul>
+<li><p>Just enough of particle physics for bioinformaticians</p></li>
+<li><p>The Large Hadron Collider and particle detectors</p></li>
+<li><p>Compact Muon Solenoid detector</p></li>
+<li><p>Muon Endcap subsystem</p></li>
+<li><p>Electronics</p></li>
+<li><p>Track-Finding</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Just enough of particle physics for bioinformaticians</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Standard Model is a universal theory describing microscopic world with incredible precision</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><img class=center src="sm.svg" height=300></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>Quarks form protons and neutrons like triplets of the four bases form amino acids 
+(e.g. <span style="font-family:helvetica;font-style:italic">Glutamine = CAG</span>; \(p = uud\), \(n = udd\))</p>
+
+<p>But particles easily turn into each other (e.g. \(n \rightarrow p^+ + e^- + \bar{\nu}_e\) when \(d \rightarrow u + W^-\))</p>
+
+<p>Focus on accurately measuring this dynamics
+and look for deviations from predictions</p>
+
+</div>
+<div style='float:right;width:100%;'>
+  <p>There theory is complete, but there are still many open questions; some of those:</p>
+
+<ul>
+<li><p><a href="https://indico.cern.ch/event/312657/contributions/1685474/attachments/598780/823985/kk_2014.09.26.pdf">Dark matter observed in skies</a>: what it is and where would it fit in the table above?</p></li>
+<li><p>What happens beyond our energy reach where the model no longer describes nature?</p></li>
+</ul>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>The Large Hadron Collider (&quot;wet lab&quot; of HEP)</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img class=center src="ring.png" height=320></p>
+
+<p><img class=center src="tunnel.jpg" height=220></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>Collision energy \(\sim 10^4\) proton masses</p>
+
+<p>Collision frequency \(\sim 40 MHz\) (every 25 ns)</p>
+
+<p>Data rate \(\sim 20 PB\) per year</p>
+
+<p><img class=center src="detectors.png" height=350></p>
+
+</div>
+<div style='float:right;width:100%;'>
+  NA
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Compact Muon Solenoid (a high-speed 3D camera)</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br></p>
+
+<p><img class=center src="cms.png" width=1000></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Muon Endcap System</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p><img class=center src="endcap2.png" width=400></p>
+
+<p>6,000 m\(^2\) sensitive area</p>
+
+<p>2,000,000 anode wires (200,000 channels)</p>
+
+<p>250,000 strip (analog) channels</p>
+
+<p>540 overlapping chambers</p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img class=center src="csc_trapezoid_v4.svg" height=400></p>
+
+<p><img class=center src="piercing.png" height=100></p>
+
+</div>
+<div style='float:right;width:100%;'>
+  
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Custom-built electronics</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p>Readout:</p>
+
+<p><img class=center src="crate.png" height=480></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p>Track-finding:</p>
+
+<p><img class=center src="tfboard.jpg" height=200></p>
+
+<p><img class=center src="tfcrate.jpg" height=200></p>
+
+<p>(<a href="http://iopscience.iop.org/article/10.1088/1748-0221/8/12/C12034/pdf">an upgraded version</a> was deployed last year)</p>
+
+</div>
+<div style='float:right;width:100%;'>
+  
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Track-finding problem</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Link track segments into a trajectory and measure particle&#39;s momentum from its bending:</p>
+
+<p><img class=center src="bend.png" height=350></p>
+
+<p>Time constraint: system completes the arithmetic within 6-10 external clock ticks</p>
+
+<p>The logic is implemented in the main Xilinx FPGA using Vivado framework (i.e. firmware in C++)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    <p><br>
+<br>
+<br>
+<br></p>
+
+<h1>My projects in HEP:</h1>
+
+<p><br></p>
+
+<ul>
+<li><p>Assigning particle momentum using Machine Learning</p></li>
+<li><p>Hardware-oriented projects</p></li>
+<li><p>Conditions&#39; logging system (online DB to offline DB)</p></li>
+<li><p>Data analysis at scale</p></li>
+<li><p>Other projects</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Machine Learning</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Multiple scattering and non-uniform \(B\)-field make analytic momentum assignment impractical</p>
+
+<p>Using simulated events I <a href="https://github.com/kkotov/emtfPtRegression">train</a> a model predicting track&#39;s momentum from measured hits:</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><img class=center src="bend4.png" height=200></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <table><thead>
+<tr>
+<th>type</th>
+<th>measurement in station</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>\(\theta\)</td>
+<td>2</td>
+</tr>
+<tr>
+<td>\(\Delta\phi\)</td>
+<td>1-2, 1-3, 1-4, 2-3, 2-4, 3-4</td>
+</tr>
+<tr>
+<td>\(\Delta\theta\)</td>
+<td>1-2, 1-3, 1-4, 2-3, 2-4, 3-4</td>
+</tr>
+<tr>
+<td>bend</td>
+<td>1, 2, 3, 4</td>
+</tr>
+</tbody></table>
+
+</div>
+<div style='float:right;width:100%;'>
+  <p>Performance is studied for <a href="https://github.com/imbs-hl/ranger">random forests</a> and <a href="https://cran.r-project.org/web/packages/gbm/index.html">boosted trees</a> in R, and neural net in <a href="http://h2o.ai">H2O</a></p>
+
+<p>Random Forests are <a href="https://github.com/kkotov/ml/">re-implemented</a> for the existing track-finder simulation package in C++</p>
+
+<p>Details (performance metrics, model selection, input compression) are given in
+\([\)<a href="https://kkotov.github.io/emtfPtRegression/2017.01.19/handout.html">1</a>,<a href="https://kkotov.github.io/emtfPtRegression/2017.02.10/handout.html">2</a>,<a href="https://kkotov.github.io/emtfPtRegression/2017.03.03/handout.html">3</a>,<a href="https://kkotov.github.io/emtfPtRegression/2017.03.17/handout.html">4</a>\(]\)</p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Microcontrollers</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Firmware for the Module Management Controllers (MMC) on the Track-Finding boards:</p>
+
+<ul>
+<li><p><a href="https://en.wikipedia.org/wiki/Advanced_Telecommunications_Computing_Architecture">$\mu$TCA</a> board
+is managed (i.e. power sequences, monitoring, ports, ...) by a microcontroller</p></li>
+<li><p>protocols for communicating with crate controller are implemented in <a href="https://espace.cern.ch/ph-dep-ESE-BE-uTCAEvaluationProject/MMC_project/default.aspx">CERN MMC</a> C library</p></li>
+<li><p>I&#39;ve customized the firmware
+\([\)<a href="https://svnweb.cern.ch/trac/cactus/browser/branches/madorsky_emtf/emtf_1704/mmc/mtf7_base_mmc_cern#user">1</a>,<a href="https://svnweb.cern.ch/trac/cactus/browser/branches/madorsky_emtf/emtf_1704/mmc/mtf7_optical_ppod_mmc_cern#user">2</a>\(]\)
+for our boards; it runs in production fine for &gt;1 year</p></li>
+</ul>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><img class=center src="mtf7.png" height=300></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img class=center src="scope.jpg" height=300></p>
+
+</div>
+<div style='float:right;width:100%;'>
+  
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Databases</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Hardware emulators in <a href="http://cms-sw.github.io/">CMSSW</a> rely on framework in fetching their configuration from CondDB</p>
+
+<p>It is stored as boost-serialized C++ objects indexed by symbolic tag and sequential run number</p>
+
+<p>In contrast, hardware configuration is XML stored in another DB and indexed by symbolic keys</p>
+
+<p>For each run my automated system \([\)<a href="https://github.com/kkotov/l1o2o/blob/master/README.md">1</a>,<a href="http://kkotov.github.io/l1o2o/talks/2016.04.19">2</a>,<a href="https://github.com/cms-sw/cmssw/blob/master/L1TriggerConfig/Utilities/test/README.md">3</a>\(]\)
+parses XMLs and constructs C++ objects in CondDB</p>
+
+<div style='float:left;width:48%;' class='centered'>
+  <p><img class=center src="l1ce.png" height=300></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><img class=center src="conddb.png" height=300></p>
+
+</div>
+<div style='float:right;width:100%;'>
+  
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Data analysis</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Most of LHC analyses require (repetitive) batch processing of hundreds of terabytes of data</p>
+
+<p>Event-type data processing is easily parallelizable and done on grid and local <a href="https://research.cs.wisc.edu/htcondor/">condor</a> clusters </p>
+
+<p>While event selection is easy, the bulk of analyzer&#39;s work goes into estimating uncertainties</p>
+
+<p>Once this is done, a likelihood is constructed at fit to the data (e.g. <a href="https://github.com/koskot77/OSUAnalysis/blob/master/cnt3j.C">here</a>)
+1410.1149</p>
+
+<p>conceptually 
+(apart from tedious bookkeeping for multiple of samples)</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Other HEP projects</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><a href="https://github.com/kkotov/emtf_cell/">Control and monitoring</a> system for the Track-Finding (worked with/after Atanas) providing:</p>
+
+<ul>
+<li>State machine (Halted/Configured/Running) orchestrated by <a href="https://cds.cern.ch/record/2194548/files/CR2016_121.pdf">the central service</a></li>
+<li>System health monitoring</li>
+<li>Expert-level web interface</li>
+</ul>
+
+<p>Data Quality Monitoring (DQM) for Endcap Muon system commissioning (old):</p>
+
+<ul>
+<li><a href="https://github.com/koskot77/cmssw">Software</a> for reading and interpreting raw data format as produced by the electronics</li>
+<li>Prompt <a href="http://cms-csc.web.cern.ch/cms-csc/DQM/TrackFinder/plots/browser.html">feedback system</a> visualizing and web-publishing data as they are taken</li>
+</ul>
+
+<p>Custom-built (legacy) Track-Finder system production (old):</p>
+
+<ul>
+<li><a href="https://svnweb.cern.ch/trac/cactus/browser/trunk/cactusprojects/csctf/SPValidation">Bench tests</a> for newly produced electronic boards</li>
+</ul>
+
+<p>Event-type data analysis <a href="http://koskot77.github.io/framework">framework</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    <p><br>
+<br>
+<br>
+<br></p>
+
+<h1>Other interests in data processing:</h1>
+
+<p><br></p>
+
+<ul>
+<li><p>Applied Linear Algebra (e.g. <a href="http://koskot77.github.io/pca/">pca</a>)</p></li>
+<li><p><a href="http://koskot77.github.io/twitter">Text mining</a></p></li>
+<li><p><a href="http://koskot77.github.io/winton">Digital Signal Processing</a></p></li>
+<li><p>data processing in FPGAs</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <article data-timings="">
+    <p><br><br><br></p>
+
+<p>\[ \Large Backup \]</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>ROC performance metric</h2>
+  </hgroup>
+  <article data-timings="">
+    
+<div style='float:left;width:48%;' class='centered'>
+  <p>Model&#39;s accuracy = turn-on sharpness:</p>
+
+<p><img class=center src="https://kkotov.github.io/emtfPtRegression/2017.03.17/assets/fig/unnamed-chunk-3-1.svg" height=400></p>
+
+</div>
+<div style='float:right;width:48%;'>
+  <p><a href="https://kkotov.github.io/emtfPtRegression/2017.02.10/#6">Rate below/above thr. = false/true positives</a></p>
+
+<p><img class=center src="https://kkotov.github.io/emtfPtRegression/2017.03.17/assets/fig/unnamed-chunk-4-1.svg" height=400></p>
+
+</div>
+<div style='float:right;width:100%;'>
+  
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Model selection and compression</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The only hardware implementation within the time constraints is via Look Up Table (LUT)</p>
+
+<p>Truncate precision and drop weak predictors to fit input in 30 bits address of on-board RAM:</p>
+
+<table><thead>
+<tr>
+<th>\(\theta\)</th>
+<th>\(\Delta\phi_{12}\)</th>
+<th>\(\Delta\phi_{23}\)</th>
+<th>\(\Delta\phi_{34}\)</th>
+<th>\(S^\phi_{12,23}\)</th>
+<th>\(S^\phi_{12,34}\)</th>
+<th>\(\Delta\theta_{14}\)</th>
+<th>bend</th>
+<th>fr</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>[7:2]</td>
+<td>[9:2]</td>
+<td>[7:2]</td>
+<td>[7:2]</td>
+<td>1</td>
+<td>1</td>
+<td>[2:0]</td>
+<td>2,0,0,0</td>
+<td>1,0,0,0</td>
+</tr>
+</tbody></table>
+
+<p><br></p>
+
+<p><img class=center src="https://kkotov.github.io/emtfPtRegression/2017.03.17/assets/fig/unnamed-chunk-53-1.svg" height=300></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Outline'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='NA'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Just enough of particle physics for bioinformaticians'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='The Large Hadron Collider (&quot;wet lab&quot; of HEP)'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Compact Muon Solenoid (a high-speed 3D camera)'>
+         5
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=6 title='Muon Endcap System'>
+         6
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=7 title='Custom-built electronics'>
+         7
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=8 title='Track-finding problem'>
+         8
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=9 title='NA'>
+         9
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=10 title='Machine Learning'>
+         10
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=11 title='Microcontrollers'>
+         11
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=12 title='Databases'>
+         12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Data analysis'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Other HEP projects'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='NA'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='NA'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='ROC performance metric'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='Model selection and compression'>
+         18
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        processEscapes: true
+      }
+    });
+  </script>
+  <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script> -->
+  <script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="../../../../monohiggs/plots/libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="../../../../monohiggs/plots/libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
