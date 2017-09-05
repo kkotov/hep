@@ -190,7 +190,7 @@ The logic is implemented in the main Xilinx FPGA using Vivado framework (i.e. fi
 
 * Conditions' logging system (online DB to offline DB)
 
-* Data analysis at scale
+* Data analysis (at scale)
 
 * Other projects
 
@@ -273,19 +273,18 @@ parses XMLs and constructs C++ objects in CondDB
 
 --- .class #id
 
-## Data analysis
+## Physics data analysis
 
-Most of LHC analyses require (repetitive) batch processing of hundreds of terabytes of data
+* Clean data from noise (aka. select events) and reduce dimensionality (aka. ntuplize)
+* Construct a model including nuisance parameters (aka. uncertainties)
+* Fit model to the data and extract confidence intervals on the parameters of interest
+
+The first part usually requires (repetitive) batch processing of hundreds of terabytes of data
 
 Event-type data processing is easily parallelizable and done on grid and local [condor](https://research.cs.wisc.edu/htcondor/) clusters 
 
 While event selection is easy, the bulk of analyzer's work goes into estimating uncertainties
 
-Once this is done, a likelihood is constructed at fit to the data (e.g. [here](https://github.com/koskot77/OSUAnalysis/blob/master/cnt3j.C))
-1410.1149
-
-conceptually 
-(apart from tedious bookkeeping for multiple of samples)
 
 --- .class #id
 
