@@ -106,8 +106,6 @@ Data rate $\sim 20 PB$ per year
 
 <img class=center src="detectors.png" height=350>
 
-*** =fullwidth
-
 
 --- .class #id
 
