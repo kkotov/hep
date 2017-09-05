@@ -22,17 +22,17 @@ mode        : selfcontained # {standalone, draft}
 <br>
 <br>
 
-Zooming in the big picture: from fundamental questions to the bolts and nuts of my projects
+# Zooming in the big picture: from fundamental questions to the bolts and nuts of my projects
 
 <br>
 <br>
 
-My projects in the domain
+# My projects in the domain
 
 <br>
 <br>
 
-Other interests
+# Other interests
 
 --- .class #id
 
@@ -44,7 +44,7 @@ Other interests
 
 <br>
 
-* Just enough of particle physics for bioinformaticians
+* Just enough of particle physics
 
 * The Large Hadron Collider and particle detectors
 
@@ -59,7 +59,7 @@ Other interests
 
 ---  &twocol
 
-## Just enough of particle physics for bioinformaticians
+## Just enough of particle physics
 
 Standard Model is a universal theory describing microscopic world with incredible precision
 
@@ -88,7 +88,7 @@ There theory is complete, but there are still many open questions; some of those
 
 --- &twocol
 
-## The Large Hadron Collider ("wet lab" of HEP)
+## The Large Hadron Collider
 
 *** =left
 
