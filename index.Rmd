@@ -279,11 +279,13 @@ parses XMLs and constructs C++ objects in CondDB
 * Construct a model including nuisance parameters (aka. uncertainties)
 * Fit model to the data and extract confidence intervals on the parameters of interest
 
-The first part usually requires (repetitive) batch processing of hundreds of terabytes of data
+<img class=center src="temp.png" height=300>
+
+Selection usually requires (repetitive) batch processing of hundreds of terabytes of data
 
 Event-type data processing is easily parallelizable and done on grid and local [condor](https://research.cs.wisc.edu/htcondor/) clusters 
 
-While event selection is easy, the bulk of analyzer's work goes into estimating uncertainties
+<!--While event selection is easy, the bulk of analyzer's work goes into estimating uncertainties-->
 
 
 --- .class #id

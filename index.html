@@ -255,7 +255,7 @@ and look for deviations from predictions</p>
 <li><p>Assigning particle momentum using Machine Learning</p></li>
 <li><p>Hardware-oriented projects</p></li>
 <li><p>Conditions&#39; logging system (online DB to offline DB)</p></li>
-<li><p>Data analysis at scale</p></li>
+<li><p>Data analysis (at scale)</p></li>
 <li><p>Other projects</p></li>
 </ul>
 
@@ -377,20 +377,22 @@ parses XMLs and constructs C++ objects in CondDB</p>
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Data analysis</h2>
+    <h2>Physics data analysis</h2>
   </hgroup>
   <article data-timings="">
-    <p>Most of LHC analyses require (repetitive) batch processing of hundreds of terabytes of data</p>
+    <ul>
+<li>Clean data from noise (aka. select events) and reduce dimensionality (aka. ntuplize)</li>
+<li>Construct a model including nuisance parameters (aka. uncertainties)</li>
+<li>Fit model to the data and extract confidence intervals on the parameters of interest</li>
+</ul>
+
+<p><img class=center src="temp.png" height=300></p>
+
+<p>Selection usually requires (repetitive) batch processing of hundreds of terabytes of data</p>
 
 <p>Event-type data processing is easily parallelizable and done on grid and local <a href="https://research.cs.wisc.edu/htcondor/">condor</a> clusters </p>
 
-<p>While event selection is easy, the bulk of analyzer&#39;s work goes into estimating uncertainties</p>
-
-<p>Once this is done, a likelihood is constructed at fit to the data (e.g. <a href="https://github.com/koskot77/OSUAnalysis/blob/master/cnt3j.C">here</a>)
-1410.1149</p>
-
-<p>conceptually 
-(apart from tedious bookkeeping for multiple of samples)</p>
+<!--While event selection is easy, the bulk of analyzer's work goes into estimating uncertainties-->
 
   </article>
   <!-- Presenter Notes -->
@@ -606,7 +608,7 @@ parses XMLs and constructs C++ objects in CondDB</p>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=13 title='Data analysis'>
+        data-slide=13 title='Physics data analysis'>
          13
       </a>
     </li>
